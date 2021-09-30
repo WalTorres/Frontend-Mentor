@@ -6,3 +6,6 @@ En este curso aprenderás:
 - Creación de un repositorio
 - Ttrabajo con ramas
 - Ramas remotas
+
+##Rama development
+Ahora tenemos 2 ramas en el proyecto
