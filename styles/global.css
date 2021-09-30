@@ -7,3 +7,7 @@ body {
     color: #eee;
     border: none;
 }
+.container {
+    margin: 0;
+    padding: 0;
+}
