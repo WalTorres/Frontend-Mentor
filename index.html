@@ -1,27 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./global.css">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
 </head>
 <body>
-    <p>La web de Walter</p>
-    <p>Este curso te enseña GIT desde su descarga hasta su instalación</p>
-    <div>
-        <h2>Galería de fotos</h2>
-        <img src="./images/woocommerce.jpg" alt="woocommerce" width="200">
-        <span>Este es un recuerdo de una empresa</span>
-        <a href="./pages/equipo.html">Nuestro equipo</a>
-    </div>
-    <section>
-        <h2>
-            Rama development
-        </h2>
-        <img src="./images/woocommerce.jpg" alt="">
-        <p>En este momento estamos en la rama development</p>
-    </section>
+    <main class="main">
+        <div class="wrapper">
+            <div class="content">
+                <img src="./images/illustration-hero.svg" alt="">
+                <div class="content-info">
+                    <div class="content-theme">
+                        <h1 class="content-theme__title">Order Summary</h1>
+                        <p class="content-theme__paragraph">You can now listen yo millions of songs,
+                            audiobooks and podcast on any device
+                            anywhere you like!
+                        </p>
+                    </div>
+                    <div class="content-song">
+                        <div class="box">
+                            <img class="icon-music" src="./images/icon-music.svg" alt="">
+                            <div class="information">
+                                <p class="name">Animal Plan</p>
+                                <p class="price">$59.99/year</p>
+                            </div>
+                        </div>
+                        <div class="link">Change</div>
+                    </div>
+                    <button class="button">Proceed to Payment</button>
+                    <p class="orden">Cancel Order</p>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
