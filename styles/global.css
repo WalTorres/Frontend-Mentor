@@ -96,10 +96,13 @@ img{
     font-size: .7rem;
     margin-bottom: .5rem;
     border: none;
+    /* border: none; */
 }
+
 
 .orden {
     text-align: center;
     font-size: .6rem;
     color: #382AE1;
+    display: block;
 }
