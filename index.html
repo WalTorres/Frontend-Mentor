@@ -4,40 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="./styles/global.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
 </head>
 <body>
-    <main class="main">
-        <div class="wrapper">
-            <div class="content">
-                <img src="./images/illustration-hero.svg" alt="">
-                <div class="content-info">
-                    <div class="content-theme">
-                        <h1 class="content-theme__title">Order Summary</h1>
-                        <p class="content-theme__paragraph">You can now listen yo millions of songs,
-                            audiobooks and podcast on any device
-                            anywhere you like!
-                        </p>
+    <div class="contenedor">
+        <div class="contenedor-fondo">
+            <img class="imagen-fondo" src="./images/illustration-hero.svg" alt="">
+        </div>
+        <div class="contenedor-texto">
+            <div class="contenedor-texto-wrapper">
+                <h3>Order Sumary</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, modi ullam. Earum nostrum modi eveniet.</p>
+            </div>
+            <div class="contenedor-detalle">
+                <div class="info-img">
+                    <img src="./images/icon-music.svg" alt="">
+                    <div class="info">
+                        <h3>Annual Plan</h3>
+                        <p>$59.99/year</p>
                     </div>
-                    <div class="content-song">
-                        <div class="box">
-                            <img class="icon-music" src="./images/icon-music.svg" alt="">
-                            <div class="information">
-                                <p class="name">Animal Plan</p>
-                                <p class="price">$59.99/year</p>
-                            </div>
-                        </div>
-                        <a href="#" class="link">Change</a>
-                    </div>
-                    <button class="button">Proceed to Paymentxx</button>
-                    <a href="#" class="orden">Cancel Order</a>
                 </div>
+                <a href="#">Change</a>
+            </div>
+            <div>
+                <button id="boton-pagar">Proceed to Payment</button>
+                <button class="boton-cancelar">Cancel Orden</button>
             </div>
         </div>
-    </main>
+    </div>
 </body>
 </html>
